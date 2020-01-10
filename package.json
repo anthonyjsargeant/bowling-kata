@@ -1,0 +1,20 @@
+{
+  "name": "bowling-kata",
+  "version": "1.0.0",
+  "description": "A project for running through the Bowling Game Kata",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "pretest": "npm run lint",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "24.0.25",
+    "jest": "24.9.0",
+    "ts-jest": "24.3.0",
+    "typescript": "3.7.4"
+  }
+}
